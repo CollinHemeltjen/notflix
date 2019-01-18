@@ -1,0 +1,20 @@
+$card-width: 493px;
+img{
+  max-width: 185px;
+}
+.card{
+  width: $card-width;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+  margin: 10px;
+}
+
+.col{
+  padding: 0;
+}
+.card:hover{
+  cursor: pointer;
+  -ms-transform: scale(1.025, 1.025); /* IE 9 */
+  -webkit-transform: scale(1.025, 1.025); /* Safari */
+  transform: scale(1.025, 1.025);
+}
