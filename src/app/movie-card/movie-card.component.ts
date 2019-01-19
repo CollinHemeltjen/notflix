@@ -6,6 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./movie-card.component.scss']
 })
 export class MovieCardComponent implements OnInit {
+  private defaultUrl: String = 'https://image.tmdb.org/t/p/w500';
 
   @Input() title: String;
   @Input() releaseDate: String;
