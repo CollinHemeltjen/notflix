@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row"  *ngIf="movies">
+    <div *ngFor="let movie of movies.results">
+      <app-movie-card
+        [title]="movie.title"
+        [releaseDate]="movie.release_date"
+        [description]="movie.overview"
+        [posterImage]="movie.poster_path">
+      </app-movie-card>
+    </div>
+  </div>
+</div>

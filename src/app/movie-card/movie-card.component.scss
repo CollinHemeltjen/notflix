@@ -4,9 +4,11 @@ img{
 }
 .card{
   width: $card-width;
+  height: 278px;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px 3px;
   margin: 10px;
+
 }
 
 .col{
@@ -17,4 +19,15 @@ img{
   -ms-transform: scale(1.025, 1.025); /* IE 9 */
   -webkit-transform: scale(1.025, 1.025); /* Safari */
   transform: scale(1.025, 1.025);
+}
+
+.card-text{
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  color: rgb(77, 77, 77);
+  display: block;
+  font-size: 0.8rem;
+  height: 140px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
