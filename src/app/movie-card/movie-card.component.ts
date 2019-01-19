@@ -8,14 +8,11 @@ import { Component, OnInit, Input } from '@angular/core';
 export class MovieCardComponent implements OnInit {
   private defaultUrl: String = 'https://image.tmdb.org/t/p/w500';
 
-  @Input() title: String;
-  @Input() releaseDate: String;
-  @Input() description: String;
   @Input() posterImage: String;
+  @Input() movieId: String;
 
   constructor() { }
 
   ngOnInit() {
   }
-
 }

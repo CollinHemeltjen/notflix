@@ -12,4 +12,7 @@ export class MovieService {
     return this.http.get('https://api.themoviedb.org/3/discover/movie?api_key=' + this.apiKey);
   }
 
+  getMovie(movieId: String) {
+    return this.http.get('https://api.themoviedb.org/3/movie/' + movieId + '?api_key=' + this.apiKey);
+  }
 }
