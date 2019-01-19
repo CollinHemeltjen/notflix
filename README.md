@@ -1,6 +1,7 @@
 # Notflix
 
 a front-end to an imdb api using angular 6
+powered by https://www.themoviedb.org
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
